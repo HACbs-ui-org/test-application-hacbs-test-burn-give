@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/karthik_jk/nodeapp@sha256:8ba230a9b7ff121a18bcf87604d3187af3e17d6bdb64abf8f2b06bb55f6d5156
+      - image: quay.io/karthik_jk/nodeapp@sha256:99ca58ad38ffcf4332e307b6bfd5d99f2f0335d8a66c43c7b91384a2db426b0f
         name: container-image
         resources: {}
 status: {}
