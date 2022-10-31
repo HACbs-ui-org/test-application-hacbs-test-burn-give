@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nodeapp
+  namespace: hacbs-test
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - env:
+        - name: env
+          value: development-2
+        image: quay.io/karthik_jk/nodeapp@sha256:99ca58ad38ffcf4332e307b6bfd5d99f2f0335d8a66c43c7b91384a2db426b0f
+        name: container-image
+        resources: {}
+status: {}
